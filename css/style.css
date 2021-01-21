@@ -1052,9 +1052,10 @@
    /*===========MOBILE============*/
    @media (max-width: 640px) {
      
-	input {
+	   input[type="search"] {
       -moz-appearance: none;
       -webkit-appearance: none;
+		   border-radius: 0;
     }
 	   
     .popup {
